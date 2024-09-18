@@ -1,6 +1,6 @@
 name: SayHello
 
- on:
+on:
    push:
      branches:
        - develop
@@ -14,7 +14,7 @@ name: SayHello
        - release
 
        
- jobs:
+jobs:
   detect-branch:                       
      runs-on: ubuntu-latest            
 
